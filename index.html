@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script src="index.js"></script>
+    <link href="style.css">
+    </head>
+    <body>
+        <h1>Currency Converter</h1>
+        <p>Select the currency and amount to convert</p>
+        <label for="membership">From:</label>
+<select name="membership" id="from">
+  <option value="USD">USD</option>
+  <option value="EUR">EUR</option>
+  <option value="GBP" selected>GBP</option>
+  <option value="INR">INR</option>
+</select>
+<label for="membership">To:</label>
+<select name="membership" id="to">
+  <option value="USD">USD</option>
+  <option value="EUR">EUR</option>
+  <option value="GBP" selected>GBP</option>
+  <option value="INR">INR</option>
+</select>
+<label>Amount</label>
+<input type="text" id="amount">
+<button onclick="conv()">convert</button>
+<br/>
+<p id="result"></p>
+
+    </body>
+</html>
